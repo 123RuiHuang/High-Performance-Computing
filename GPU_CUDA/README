@@ -1,0 +1,14 @@
+use command  "make" to compile the project
+use command "make run" to run the program
+use command "make clean" to delete HW5_GPU lena_* HW5_CPU cmp
+
+
+note: when you use the command "make", it might produce some error. This is
+because the path of the /cuda/samples/common/inc/ in my environment is
+ differentfrom your environment. You just need to change it in Makefile to
+ the path in youenvironment
+
+
+
+
+

@@ -1,0 +1,15 @@
+Command to run this code :
+ make
+ ./homework_2 filename numOfProcess
+
+For example : 
+make
+./homework_2 hpc_data_starter.csv 2
+
+after run, use make clean to delete .o files and homework_2
+
+another way to run the code
+ make
+ sbatch homework_2.sh
+
+but the output is not accurate what I want.
